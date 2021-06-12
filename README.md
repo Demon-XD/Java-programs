@@ -15,4 +15,6 @@ The programs in the package are listed below with their brief descriptions:
 6. UpperLower.java (A program for guessing what the random number is. Inspired by the Discord bot Dank Memer.)
 7. TicTacToe.java (A program for playing TicTacToe!)
 
+P.S. - All of the programs except Main.java and TicTacToe.java do NOT have a main method.
+
 Any other programs which are in this package are just made by me for fun, and have no primary use.
