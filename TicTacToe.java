@@ -1,4 +1,4 @@
-package Vedant.Java_Projects;
+package Java-programs;
 // working on this program temporarily, am later going to add it in Casino.java
 
 import java.util.Scanner;
