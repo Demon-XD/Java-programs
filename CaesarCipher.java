@@ -1,4 +1,4 @@
-package Java_Projects;
+package Java-Projects;
 
 public class CaesarCipher {
     // lower limit " " - 32, upper limit "~" - 126
