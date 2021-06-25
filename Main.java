@@ -1,8 +1,10 @@
-package Vedant.Java_Projects;
+package Java-programs;
 
 public class Main {
     public static void main(String[] args) {
-        CaesarCipher hello = new CaesarCipher();
-        System.out.println(hello.decrypt("ZKDW UHDOOB KDSSHQHG", 3));
+        // Create objects and call method here! An example is shown below:
+        CaesarCipher cc = new CaesarCipher();
+        System.out.println(cc.encode("i love coding!", 4));
+        System.out.println(cc.decode("fvyl", 4));
     }
 }
