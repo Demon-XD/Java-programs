@@ -1,4 +1,4 @@
-package Vedant.Java_Projects;
+package Java-programs;
 
 public class VigenereCipher {
     private String plainText, cipherText;
