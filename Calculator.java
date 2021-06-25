@@ -1,4 +1,4 @@
-package Vedant.Java_Projects;
+package Java-programs;
 
 /*A program to make a calculator with infinite inputs, taking input from the console and exiting when a particular
 * number is entered.*/
