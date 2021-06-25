@@ -1,5 +1,5 @@
 /*
- A bot inspired by the discord bot Dank Memer. This bot is still in its alpha version.
+ A bot inspired by the discord bot Dank Memer (Dank Memer#5192). This bot is still in its alpha version.
  Programming logic by: Vedant Jadhav
  For now the money feature has not been added yet.
  Current planned games include:
