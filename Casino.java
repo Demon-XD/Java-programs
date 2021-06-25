@@ -8,7 +8,7 @@
  current pending updates/ideas:
  1. make an achievement system to make the game more fun*/
 
-package Vedant.Java_Projects;
+package Java-programs;
 
 import java.util.Scanner;
 
