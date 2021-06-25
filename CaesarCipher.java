@@ -1,17 +1,10 @@
-package Vedant.Java_Projects;
+package Java_Projects;
 
 public class CaesarCipher {
-    private String plainText, cipherText;
-    private int letter;
-    private int extraShift;
-
-    public CaesarCipher() {
-        plainText = "";
-        cipherText = "";
-    }
-
     // lower limit " " - 32, upper limit "~" - 126
-    public String encrypt(String oriWord, int noOfShift) {
+    String encode(String oriWord, int noOfShift) {
+        String cipherText = "";
+        int letter, extraShift;
         for(int i = 0; i < oriWord.length(); i++) {
             letter = Character.toLowerCase(oriWord.charAt(i));
             if (Character.isLetter(letter)) {
@@ -35,29 +28,10 @@ public class CaesarCipher {
         }
         return cipherText;
     }
-    public String decrypt(String oriWord, int noOfShift) {
-        oriWord = oriWord.toLowerCase();
-        for(int i = 0; i < oriWord.length(); i++) {
-            letter = oriWord.charAt(i);
-            if (Character.isLetter(letter)) {
-                if ((letter - noOfShift) < 'a') {
-                    // calculating extra shift of the letter gone below 'a'
-                    extraShift = ('a' - 1) - (letter - noOfShift);
-                    // reducing the extra shift from 'z'
-                    letter = 'z' - extraShift;
-                } else
-                    letter -= noOfShift;
-            } else {
-                if (letter - noOfShift < ' ') {
-                    // calculating extra shift of the letter gone below ' ' (whitespace)
-                    extraShift = (' ' - 1) - (letter - noOfShift);
-                    // reducing extra shift from '~'
-                    letter = '~' + extraShift;
-                } else
-                    letter -= noOfShift;
-            }
-            plainText += (char) letter;
-        }
+
+    String decode(String oriWord, int noOfShift) {
+        String plainText = ""; 
+        plainText = encode(oriWord, 26 - noOfShift);
         return plainText;
     }
 }
