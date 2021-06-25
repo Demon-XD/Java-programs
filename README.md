@@ -14,6 +14,7 @@ The programs in the package are listed below with their brief descriptions:
 5. VigenereCipher.java (A program for encrypting and decrypting any text using the vigenere cipher.)
 6. UpperLower.java (A program for guessing what the random number is. Inspired by the Discord bot Dank Memer.)
 7. TicTacToe.java (A program for playing TicTacToe!)
+8. Anagram.java (A program to check if two words are anagrams of each other or not!)
 
 P.S. - All of the programs except Main.java and TicTacToe.java do NOT have a main method.
 
