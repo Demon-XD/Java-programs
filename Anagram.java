@@ -1,4 +1,4 @@
-package Vedant.Java_Projects;
+package Java-programs;
 
 public class Anagram {
     void check(String str1, String str2) {
