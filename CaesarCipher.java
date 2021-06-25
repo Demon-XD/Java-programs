@@ -1,5 +1,6 @@
 package Java-Projects;
 
+// As a sidenote, the decode function won't work much properly if there are spaces or symbols in the ciphertext, so be careful with that!
 public class CaesarCipher {
     // lower limit " " - 32, upper limit "~" - 126
     String encode(String oriWord, int noOfShift) {
