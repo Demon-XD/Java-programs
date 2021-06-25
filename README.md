@@ -18,7 +18,7 @@ The programs in the package are listed below with their brief descriptions:
 
 Please note:
 1. All of the programs except Main.java and TicTacToe.java do NOT have a main method.
-2. You CANNOT download any program separately and expect the program to work properly. If you want to do so, please delete the first line (package Java-programs) in the program.
+2. You CANNOT download any program separately and expect the program to work properly. If you wish to do so, please delete the first line (package Java-programs) in the program.
 3. The Casino.java program is not listed in the above list as it is currently suspended. Feel free to make any changes or suggest them on my discord, given in my profile!
 
 Any other programs which are in this package are just made by me for fun, and have no primary use.
