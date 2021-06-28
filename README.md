@@ -15,9 +15,10 @@ The programs in this package are listed below with their brief descriptions:
 7. TicTacToe.java (A program for playing TicTacToe)
 8. Anagram.java (A program to check if two words are anagrams of each other or not)
 
+Any other programs which are in this package are just made by me for fun, and have no primary use.
+
 Please note:
 1. All of the programs except Main.java and TicTacToe.java do NOT have a main method.
-2. You CANNOT download any program separately and expect the program to work properly. If you wish to do so, please delete the first line (package Java-programs) in the program.
+2. You CANNOT download any program separately and expect the program to work properly. If you wish to do so, please delete the first line - `package Java-programs;` - in the program, and either add a main method or convert the working method to a main method - replace the method declaration line with `public static void main(String[] args) {`.
 3. The Casino.java program is not listed in the above list as it is currently suspended. Feel free to make any changes or suggest them on my discord, given in my profile!
 
-Any other programs which are in this package are just made by me for fun, and have no primary use.
