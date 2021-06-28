@@ -15,7 +15,7 @@ The programs in this package are listed below with their brief descriptions:
 7. TicTacToe.java (A program for playing TicTacToe)
 8. Anagram.java (A program to check if two words are anagrams of each other or not)
 
-Any other programs which are in this package are just made by me for fun, and have no primary use.
+Any other programs in this repository which are not in this list are just made by me for fun, and do not have much usage.
 
 Please note:
 1. All of the programs except Main.java and TicTacToe.java do NOT have a main method.
