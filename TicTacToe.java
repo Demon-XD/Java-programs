@@ -1,10 +1,10 @@
-package Java-programs;
+package Vedant.Java_Projects;
 // working on this program temporarily, am later going to add it in Casino.java
 
 import java.util.Scanner;
 
 public class TicTacToe {
-    void play() {
+    public static void main(String[] args) {
         char [][]map = {{'-', '-', '-'}, {'-', '-', '-'}, {'-', '-', '-'}};
         Scanner sc = new Scanner(System.in);
         int row1 = 2, col1 = 2, row2 = -1, col2 = -1, turns = 0;
