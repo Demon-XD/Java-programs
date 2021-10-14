@@ -17,6 +17,6 @@ The programs in this package are listed below with their brief descriptions:
 Any other programs in this repository which are not in this list are just made by me for fun, and do not have much usage.
 
 Please note:
-1. You CANNOT download any program separately and expect the program to work properly. If you wish to do so, please replace the first line - `package Java-programs;` - in the program with the name of your own package (`package <name>;`), and either add a main method or convert the working method to a main method - replace the method declaration line with `public static void main(String[] args) {`.
+1. You CANNOT download any program separately and expect the program to work properly. If you wish to do so, please replace the first non-comment line - `package Java-programs;` - in the program with the name of your own package (`package <name>;`), and either add a main method or convert the working method to a main method - replace the method declaration line with `public static void main(String[] args) {`.
 2. The Casino.java program is not listed in the above list as it is currently suspended. Feel free to make any changes or suggest them on my discord, given in my profile!
 
